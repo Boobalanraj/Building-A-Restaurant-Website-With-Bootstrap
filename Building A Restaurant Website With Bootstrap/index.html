@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./images/logo.png">
+  <title>Ming"s Diner</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- navbar start -->
+
+<section id="Home" class="main-content">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    
+    <a href="#Home" class="navbar-brand" id="logo"><img src="./images/logo.png" alt="logo"> <span> Ming's Diner</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a href="#Home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#dishes" class="nav-link">Dishes</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#gallery" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#book-table" class="nav-link"><button>Book a Table</button></a>
+        </li>
+    </ul>
+    </div>
+</nav>
+</section>
+
+<!-- navbar End -->
+
+<!-- carousel slider -->
+<section id="mycarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <!-- First slide -->
+  <div class="carousel-item active" >
+    <img src="./images/slide1.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block d-sm-block">
+      <h2>Steam Dumplings</h2>
+    </div>
+  </div>
+
+  <!-- second slide -->
+  <div class="carousel-item">
+    <img src="./images/slide2.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block d-sm-block">
+      <h2>Ramen</h2>
+    </div>
+  </div>
+
+  <!-- Third slide -->
+  <div class="carousel-item"> <img src="./images/slide3.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block d-sm-block">
+     <h2>Spring Rolls</h2>
+    </div>
+  </div>
+  </div>
+
+ <!-- button for prev -->
+  <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+    <span class="sr-only">Previous</span>
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+
+  <!-- button for next -->
+  <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+    <span class="sr-only">Next</span>
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</section>
+
+<!-- Dishes Start-->
+
+<section id="dishes" class="container">
+  <h1 class="text-center">DISHES</h1>
+  <div class="row" style="margin-top: 50px; ">
+    
+    <!-- first dishe -->
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/Fried Prawns With Honey Walnuts.jpg" alt="card1">
+        <div class="card-body">
+          <h3 class="text-center">Fried Prawns With Honey Walnuts</h3>
+          <h6>$9.50 <span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- second dishe -->
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/Fried Pork Chop With Pepper Salt.jpg" alt="card2" >
+        <div class="card-body">
+          <h3 class="text-center">Fried Pork Chop With Pepper Salt</h3>
+          <h6>$5.95 <span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- third dishe -->
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/Mongolian Beef.jpg" alt="card3">
+        <div class="card-body">
+          <h3 class="text-center">Mongolian Beef</h3>
+          <h6>$7.50 <span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth dishe -->
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/Crab In A Special Hot And Spicy Sauce.jpg" alt="card4">
+        <div class="card-body">
+          <h3 class="text-center">Crab In A Hot And Spicy Sauce</h3>
+          <h6>$16.00 <span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- second row -->
+
+<!-- fifth dishe -->
+
+<div class="row" style="margin-top: 50px; ">
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/Lobster With Vermicelli.jpg" alt="card5">
+      <div class="card-body">
+        <h3 class="text-center">Lobster With Vermicelli</h3>
+        <h6>16.00<span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- sixth dishe -->
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/Sizzling Rice Soup.jpg" alt="card6">
+      <div class="card-body">
+        <h3 class="text-center">Sizzling Rice Soup</h3>
+        <h6>$7.50 <span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- seventh dishe -->
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/Deluxe Buddha's Vegetables.jpg" alt="card7">
+      <div class="card-body">
+        <h3 class="text-center">Deluxe Buddha's Vegetables</h3>
+        <h6>$7.50 <span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- eigth dishe -->
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/Seafood Noodle Soup.jpg" alt="card8">
+      <div class="card-body">
+        <h3 class="text-center">Seafood Noodle Soup</h3>
+        <h6>$6.50<span><img src="./images/add.png" alt="add" width="20px"></span></h6>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- dishes end -->
+
+
+<!-- Menu start -->
+
+<section id="menu" class="container">
+  <h1 class="text-center">MENU</h1>
+  <div class="row">
+    
+    <!-- first menu -->
+
+    <div class="col-md-6 py-3 py-md-0">
+      <p style="margin-top: 30px;"><img src="./images/Fried Prawns With Honey Walnuts.jpg" alt="menu-image1" width="50px"><span> Fried Prawns With Honey Walnuts</span> Lorem ipsum dolor sit amet.</p>
+      <p style="margin-top: 30px;"><img src="./images/Fried Pork Chop With Pepper Salt.jpg" alt="menu-image2" width="50px"><span> Fried Pork Chop With Pepper Salt</span> Lorem ipsum dolor sit amet.</p>
+      <p style="margin-top: 30px;"><img src="./images/Mongolian Beef.jpg" alt="menu-image3" width="50px"><span> Mongolian Beef</span> Lorem ipsum dolor sit amet.</p>
+      <p style="margin-top: 30px;"><img src="./images/Crab In A Special Hot And Spicy Sauce.jpg" alt="menu-image4" width="50px"><span> Crab In A Special Hot And Spicy Sauce</span> Lorem ipsum dolor sit amet.</p>
+    </div>  
+
+    <!-- Second menu -->
+
+    <div class="col-md-6 py-3 py-md-0">
+      <p style="margin-top: 30px;"><img src="./images/Lobster With Vermicelli.jpg" alt="menu-image5" width="50px"><span> Lobster With Vermicelli</span> Lorem ipsum dolor sit amet.</p>
+      <p style="margin-top: 30px;"><img src="./images/Sizzling Rice Soup.jpg" alt="menu-image6" width="50px"><span> Sizzling Rice Soup</span> Lorem ipsum dolor sit amet.</p>
+      <p style="margin-top: 30px;"><img src="./images/Deluxe Buddha's Vegetables.jpg" alt="menu-image7" width="50px"><span> Deluxe Buddha's Vegetables</span> Lorem ipsum dolor sit amet.</p>
+      <p style="margin-top: 30px;"><img src="./images/Seafood Noodle Soup.jpg" alt="menu-image8" width="50px"><span> Seafood Noodle Soup</span> Lorem ipsum dolor sit amet.</p>
+    </div> 
+  </div>
+</section>
+
+<!-- menu end -->
+
+<!-- Gallery start -->
+<section id="gallery" class="container">
+  <h1 class="text-center">GALLERY</h1>
+  <div class="row">
+
+    <!-- first image -->
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/gallery1.jpg" alt="">
+      </div>
+    </div>
+
+    <!-- second image -->
+
+    <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/gallery2.jpeg" alt="">
+        </div>
+    </div>
+
+    <!-- Thrid image -->
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/gallery3.jpg" alt="">
+      </div>
+  </div>
+</section>
+
+<!-- gallery end-->
+
+<!-- book a table start -->
+
+<section id="book-table" class="container">
+  <h1 class="text-center">Book A Table</h1>
+  <div class="row">
+    <div class="col-md-4 py-3 py-md-0">
+      <input type="text" class="form-control form-control" placeholder="Name">
+      <input type="date" class="form-control form-control" placeholder="Date">
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <input type="email" class="form-control form-control" placeholder="Email">
+      <input type="time" class="form-control form-control" placeholder="Time">
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <input type="number" class="form-control form-control" placeholder="Phone">
+      <input type="text" class="form-control form-control" placeholder="No of pepople">
+    </div>
+  </div>
+
+  <div class="form-group" style="margin-top:30px;">
+    <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+  </div>
+
+  <div id="btntable" class="text-center"><button>Book a Table</button></div>
+</section>
+
+<!-- book a table end -->
+
+<!-- about start -->
+<section id="about" class="container">
+  <h1 class="text-center">About Us</h1>
+  <div class="row">
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/about 2.jpeg" alt="about image">
+      </div>
+    </div>
+
+    <div class="col-md-6 py-3 py-md-0">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis ad dolor pariatur cumque et mollitia voluptatibus numquam sunt tempora dignissimos quibusdam, quis repellendus ut! Nam debitis quo quibusdam natus culpa repudiandae perspiciatis tempora, id similique odit delectus sapiente officiis quidem? Velit illo quasi, eaque corrupti molestiae atque consectetur dicta ullam, consequatur impedit deleniti, recusandae corporis vitae! Ratione, totam neque aspernatur rem tenetur odit illum eveniet consectetur eius deleniti accusamus? Animi est culpa vitae vero, placeat provident quaerat doloremque cumque in quam, rerum consectetur iure corrupti! Commodi vitae maiores earum sit similique asperiores dignissimos pariatur, placeat totam alias officia reiciendis ex, ea tempore excepturi dicta nihil. Sed animi rerum non minus obcaecati nemo, aliquid hic officia optio placeat atque fugiat expedita consectetur at repudiandae modi fugit dignissimos ab. Voluptates, ipsa inventore.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+        <h3>Location & Hours</h3>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col h-100">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12620.152738573657!2d-122.4890427!3d37.7422484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xed62d978fa96d139!2sMing&#39;s%20Diner!5e0!3m2!1sen!2ssa!4v1634584715562!5m2!1sen!2ssa" 
+      width="100%" height="395px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <div class="col h-100">
+    <table class="table table-dark table-hover table-striped table-bordered ">
+       <thead>
+           <tr>
+               <th>Day</th>
+               <th>Time</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>Mon</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+           <tr>
+               <td>Tue</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+           <tr>
+               <td>Wed</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+           <tr>
+               <td>Thu</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+           <tr>
+               <td>Fri</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+           <tr>
+               <td>Sat</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+           <tr>
+               <td>Sun</td>
+               <td>11:00 AM - 10:00 PM</td>
+           </tr>
+       </tbody>
+    </table>
+</div>
+</section>
+
+<!-- contact us start -->
+
+<section id="contact" class="container">
+  <h1 class="text-center">CONTACT US</h1>
+  <div class="row">
+    <div class="col-9">
+        <form class="needs-validation" novalidate>
+            <div class="form-row mb-3">
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="Name" required>
+                </div>
+            </div>
+            <div class="form-row mb-3">
+                <div class="col">
+                    <input class="form-control" type="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-row mb-3">
+                <div class="col">
+                    <textarea class="form-control" type="text" placeholder="Message" required></textarea>
+                </div>
+            </div>
+            <div class="form-row mb-3">
+                <div class="col">
+                    <button id="btcontact" type="submit">Message</button>
+                </div>
+            </div>
+        </form>
+        <div class="alert alert-success d-none fw-bold" id="alertsuccess"  role="alert">Message sent</div>
+    </div>
+</div>
+</section>
+
+<!-- contact us end -->
+
+<!-- footer start -->
+
+<footer id="footer" style="margin-top: 50px;">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Ming's Diner</h3>
+          <strong>Phone: <strong>+911234567890</strong></strong><br>
+          <strong>Email: <strong>mingsdiner@gmail.com</strong></strong>
+        </div>
+ 
+        <div class="col-lg-3 col-md-6 footer-links ml-auto">
+          <h4>Our Social Networks</h4>
+           <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="fa fa-twitter" style="font-size: 35px;"></i></a>      
+            <a href="#" class="facebook"><i class="fa fa-facebook" style="font-size: 35px; color: #4267B2;"></i></a>      
+            <a href="#" class="google"><i class="fa fa-google" style="font-size: 35px; color: #4285F4;" ></i></a>      
+            <a href="#" class="instagram"><i class="fa fa-instagram" style="font-size: 35px; color: #cd486b;"></i></a>      
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container py-4">
+    <div class="copyrights">
+      &copy;Copyright <strong><span>Ming's Diner</span></strong>. All Rights Reserved
+    </div>
+    <div class="credites">
+      Designed By <a href="https://github.com/Boobalanraj">Boobalan</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

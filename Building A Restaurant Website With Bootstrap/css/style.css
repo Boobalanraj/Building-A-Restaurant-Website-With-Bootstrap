@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#333333,#333333);
+    padding: 0;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-nav a{
+    font-size: 13px;
+    float: right;
+    text-align: left;
+}
+
+.nav-link button{
+    font-size: 13px;
+    color: #848484;
+    background-color: #333333;
+    border: 0;
+}
+
+.nav-link button:hover{
+    color: white;
+} 
+
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+.carousel-item{
+    background: #777;
+    color:white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    top: 0;
+    background-position: center;
+    background-size: fill;
+}
+
+/* Dishes content*/
+
+#dishes h1{
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+#dishes .card{
+    box-shadow: 0 0 10px #333333 ;
+    cursor: pointer;
+}
+
+#dishes h3{
+    font-size: 13px;
+}
+
+
+#dishes h6{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#dishes h6 span{
+    float: right;
+    cursor: pointer;
+}
+
+/* menu content */
+
+#menu{
+    background-color: #333333;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333333;
+}
+
+#menu h1{
+    margin-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+}
+
+#menu p img{
+    border-radius: 50px;
+}
+
+#menu p span{
+    color:white;
+    font-size: 13px;
+}
+
+#menu p{
+    color: white;
+    font-size: 13px;
+}
+
+/* gallary content*/
+
+#gallery h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+#gallery .card img{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#gallery .card:hover img{
+    transform: translateY(-10px);
+}
+
+/* book a table content */
+#book-table h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: #333333;
+}
+
+#btntable button{
+    width:200px;
+    height: 38px;
+    background-color: #333333;
+    letter-spacing: 3px;
+    color: white;
+}
+
+#btntable button:hover{
+    color:#333333;
+    background-color: white;
+}
+
+@media screen and (max-width:260px) {
+    #btntable button{
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+}
+
+/* about content*/
+
+#about{
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333333;
+}
+
+#about h1{
+    margin-top:100px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px white;
+    color: white;
+}
+
+#about h3{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px white;
+}
+
+#about p{
+    color: white;
+}
+
+/* contact us content */
+
+#contact h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+#contact button{
+    width:200px;
+    height: 38px;
+    background-color: #333333;
+    letter-spacing: 3px;
+    color: white;
+}
+
+#contact button:hover{
+    color:#333333;
+    background-color: white;
+}
+
+@media screen and (max-width:260px) {
+    #contact button{
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+}
+
+/* footer content */
+#footer{
+    padding: 0 0 30px 0;
+    color:white;
+    font-size: 13px;
+    background: #333333;
+}
+
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background: #333333;
+    color: white;
+}
+
+#footer .footer-top .footer-cotact h3{
+    color: #333333;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+#footer .footer-top .footer-cotact h4{
+    font-size: 13px;
+    margin: 0 0 30px 0;
+    color: #333333;
+    text-shadow: 1px 1px 1px #333333;
+}
